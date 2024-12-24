@@ -1,3 +1,4 @@
 [submodule "nvim"]
 	path = nvim
-	url = git@github.com:Eyrim/nvim-config.git
+        url = git@github.com:Eyrim/nvim-config.git
+        branch = main
