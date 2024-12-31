@@ -1,9 +1,9 @@
 c() {
-    clear;
+        clear;
 }
 
 cls() {
-    clear;
-    ls -laG;
+        clear;
+        ls -laG;
 }
 
