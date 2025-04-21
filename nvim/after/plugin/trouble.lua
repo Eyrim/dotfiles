@@ -1,0 +1,1 @@
+-- Defined in lua/plugins/trouble.lua
