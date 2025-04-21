@@ -2,10 +2,10 @@
 
 function setup-symlinks() {
     # Symlink zshrc from config dir to ~
-    ln -s ~/.config/.zshrc ~/.zshrc;
+    ln -s ${HOME}/.config/.zshrc ${HOME}/.zshrc;
 
     # Symlink scripts to proper place
-    ls -s ~/.config/scripts/ ~/scripts/;
+    ln -s ${HOME}/.config/scripts/ ~/scripts;
 }
 
 setup-symlinks;
