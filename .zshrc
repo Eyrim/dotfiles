@@ -1,0 +1,22 @@
+#!/bin/zsh
+
+function branch-for-prompt () {
+    branch=$(git branch --show-current 2> /dev/null);
+
+    if [[ "$?" == 0 ]];
+    then
+        echo "($branch)";
+    fi
+}
+
+# Variables
+setopt PROMPT_SUBST
+export PATH=$PATH:/home/eyrim/.local/share/bob/nvim-bin
+# export PROMPT="%{$fg[blue]%}%99~: %# "
+export PROMPT='%B%F{blue}%99~%f %F{#aee8cf}$(git branch --show-current 2> /dev/null)%f %F{#daaee8}%#%f%b '
+
+# Setup scripts
+source ~/scripts/shell.sh
+source ~/scripts/git-scripts.sh
+source /usr/share/nvm/init-nvm.sh # load nvm, might need to lazy load this in future as it can be quite slow
+
