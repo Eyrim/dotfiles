@@ -9,6 +9,10 @@ function branch-for-prompt () {
     fi
 }
 
+function load-nvm () {
+    source /usr/share/nvm/init-nvm.sh # load nvm, might need to lazy load this in future as it can be quite slow
+}
+
 # Variables
 
 # Avoid having to use the default ~/.gitconfig, I hate having dotfiles hanging around in ~, we have .config for a reason people
@@ -22,5 +26,4 @@ export PROMPT='%B%F{blue}%99~%f %F{#aee8cf}$(git branch --show-current 2> /dev/n
 
 source ~/scripts/shell.sh
 source ~/scripts/git-scripts.sh
-source /usr/share/nvm/init-nvm.sh # load nvm, might need to lazy load this in future as it can be quite slow
 
