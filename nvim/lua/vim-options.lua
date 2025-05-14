@@ -12,3 +12,4 @@ vim.cmd("set mouse=")
 vim.g.mapleader = " "
 
 vim.diagnostic.config({ virtual_text = true })
+

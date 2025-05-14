@@ -4,6 +4,8 @@ require 'nvim-treesitter.configs'.setup {
     -- Enable highlighting
     highlight = {
         enable = true,
+        -- Messes with catppuccin
+        additional_vim_regex_highlighting = false,
         -- Burgled from the docs
         -- Disable highlighting if a file is larger than a given size
         disable = function(lang, buf)

@@ -15,3 +15,13 @@ vim.api.nvim_create_user_command(
         nargs = 0
     }
 )
+vim.api.nvim_create_user_command(
+    'Testo',
+    function()
+        require("neotest").output_panel.open()
+    end,
+    {
+        nargs = 0
+    }
+)
+
