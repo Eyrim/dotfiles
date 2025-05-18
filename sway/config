@@ -18,6 +18,8 @@ set $term wezterm
 # Your preferred application launcher
 set $menu wmenu-run
 
+exec swaymsg "workspace 10; exec discord;"
+exec swaymsg "workspace 10; exec spotify-launcher;"
 exec swaymsg "workspace 2; exec firefox;"
 exec swaymsg "workspace 1; exec wezterm;"
 
