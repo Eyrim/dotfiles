@@ -1,0 +1,20 @@
+font-family = "Mononoki Nerd Font Mono"
+# Disable ligatures
+font-feature = "-calt, -liga, -dliga"
+
+window-decoration = "none"
+
+theme = "catppuccin-frappe"
+
+background-opacity = "0.8"
+background-blur = true
+
+quick-terminal-position = "right"
+quick-terminal-screen = "mouse"
+quick-terminal-autohide = false
+
+shell-integration = "zsh"
+
+keybind = global:super+;=toggle_quick_terminal
+
+
