@@ -9,4 +9,6 @@ alias src-zsh='source ~/.zshrc';
 alias c='clear';
 # Clear and ls -la
 alias cls='clear; ls -laG';
+# cd to home and clear
+alias cdc='cd;c';
 
