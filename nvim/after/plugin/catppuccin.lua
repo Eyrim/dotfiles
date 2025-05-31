@@ -1,5 +1,5 @@
 require("catppuccin").setup({
-    flavor = "mocha",
+    flavor = "frappe",
     transparent_background = true,
     integrations = {
         treesitter = true,
@@ -8,4 +8,4 @@ require("catppuccin").setup({
     },
 })
 
-vim.cmd.colorscheme("catppuccin-mocha")
+vim.cmd.colorscheme("catppuccin-frappe")
