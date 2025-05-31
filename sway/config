@@ -14,14 +14,14 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term wezterm
+set $term ghostty
 # Your preferred application launcher
-set $menu wmenu-run
+set $menu wofi --show=run
 
 exec swaymsg "workspace 10; exec discord;"
 exec swaymsg "workspace 10; exec spotify-launcher;"
 exec swaymsg "workspace 2; exec firefox;"
-exec swaymsg "workspace 1; exec wezterm;"
+exec swaymsg "workspace 1; exec ghostty;"
 
 ### Output configuration
 #
