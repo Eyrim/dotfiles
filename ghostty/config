@@ -15,6 +15,8 @@ quick-terminal-autohide = false
 
 shell-integration = "zsh"
 
+# Doesn't work on my arch machine, no idea why
+# Not sure if it's a swaywm issue or an arch issue or what
 keybind = global:super+;=toggle_quick_terminal
 
 
