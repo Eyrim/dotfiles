@@ -21,6 +21,8 @@ set $menu wofi --show=run
 exec swaymsg "workspace 2; exec firefox;"
 exec swaymsg "workspace 1; exec ghostty;"
 
+font pango:Mononoki Nerd Font Mono Medium 11
+
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
