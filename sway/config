@@ -28,10 +28,11 @@ default_border none
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+# Credit to https://github.com/zhichaoh/catppuccin-wallpapers for the wallpaper
 output eDP-1 {
 	scale 1.5
 	mode 2560x1600@120hz
-        background /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+        background ~/Documents/flatppuccin_4k.png fill
 }
 
 input "type:keyboard" {
