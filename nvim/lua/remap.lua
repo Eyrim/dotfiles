@@ -20,3 +20,14 @@ vim.api.nvim_create_user_command(
     }
 )
 
+-- Shift hangover cure when write-quitting
+-- Probably won't accidentally do :WQ that much so
+vim.api.nvim_create_user_command(
+    'Wq',
+    function()
+        vim.cmd(":wq")
+    end,
+    {
+        nargs = 0
+    }
+)
