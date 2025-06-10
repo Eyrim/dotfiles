@@ -9,6 +9,7 @@
   "dressing.nvim": { "branch": "master", "commit": "2d7c2db2507fa3c4956142ee607431ddb2828639" },
   "flutter-tools.nvim": { "branch": "main", "commit": "6faf2c70bd56f1fe78620591a2bb73f4dc6f4870" },
   "friendly-snippets": { "branch": "main", "commit": "efff286dd74c22f731cdec26a70b46e5b203c619" },
+  "gitsigns.nvim": { "branch": "main", "commit": "d0f90ef51d4be86b824b012ec52ed715b5622e51" },
   "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
   "mason.nvim": { "branch": "main", "commit": "fc98833b6da5de5a9c5b1446ac541577059555be" },
   "neo-tree.nvim": { "branch": "v3.x", "commit": "9b5d67119c46e3262ffe1508fe6d8540b79ad75d" },
@@ -25,5 +26,7 @@
   "rustaceanvim": { "branch": "master", "commit": "3f327d15a3c1ed48b1e1087e16873a28a39768c2" },
   "telescope.nvim": { "branch": "master", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" },
   "trouble.nvim": { "branch": "main", "commit": "85bedb7eb7fa331a2ccbecb9202d8abba64d37b3" },
-  "typescript-tools.nvim": { "branch": "master", "commit": "a4109c70e7d6a3a86f971cefea04ab6720582ba9" }
+  "typescript-tools.nvim": { "branch": "master", "commit": "a4109c70e7d6a3a86f971cefea04ab6720582ba9" },
+  "vim-flog": { "branch": "master", "commit": "665b16ac8915f746bc43c9572b4581a5e9047216" },
+  "vim-fugitive": { "branch": "master", "commit": "4a745ea72fa93bb15dd077109afbb3d1809383f2" }
 }
