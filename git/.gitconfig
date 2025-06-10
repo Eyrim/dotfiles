@@ -1,2 +1,4 @@
 [submodule]
   recurse = true
+[branch "main"]
+	pushRemote = origin
