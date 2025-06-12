@@ -22,9 +22,8 @@ function setup-assets() {
         # TODO: Track down the find flag that doesn't print the assets dir here, this is a lazy hack to get rid of that behaviour manually
         if [[ "$name" != "assets" ]];
         then
-            echo "${name}";
+            ln -s "$f" "${HOME}/Documents/${name}";
         fi
-        ln -s "$f" "${HOME}/Documents/${name}";
     done
 }
 
