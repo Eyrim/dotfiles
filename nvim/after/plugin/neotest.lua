@@ -2,6 +2,9 @@ require("neotest").setup({
     adapters = {
         require('rustaceanvim.neotest')
     },
+    consumers = {
+        overseer = require("neotest.consumers.overseer"),
+    },
 })
 
 -- Run the nearest test
@@ -24,4 +27,3 @@ vim.api.nvim_create_user_command(
         nargs = 0
     }
 )
-
