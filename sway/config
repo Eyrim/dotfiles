@@ -32,7 +32,7 @@ default_border none
 output eDP-1 {
 	scale 1.5
 	mode 2560x1600@120hz
-        background ~/Documents/flatppuccin_4k.png fill
+        background ~/Documents/assets/flatppuccin_4k.png fill
 }
 
 input "type:keyboard" {
