@@ -32,3 +32,5 @@ require('gitsigns').setup({
 -- The HL for the current line blame text
 vim.api.nvim_set_hl(0, 'GitSignsCurrentLineBlame', { fg = "#a6a4a4", bold = false })
 
+require('lazygit')
+
