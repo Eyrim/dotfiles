@@ -17,10 +17,11 @@ function load-nvm () {
 
 # Avoid having to use the default ~/.gitconfig, I hate having dotfiles hanging around in ~, we have .config for a reason people
 export GIT_CONFIG=~/.config/git/.gitconfig;
-setopt PROMPT_SUBST
-export PATH=$PATH:/home/eyrim/.local/share/bob/nvim-bin
+setopt PROMPT_SUBST;
+export PATH=$PATH:/home/eyrim/.local/share/bob/nvim-bin;
 # export PROMPT="%{$fg[blue]%}%99~: %# "
-export PROMPT='%B%F{blue}%99~%f %F{#aee8cf}$(git branch --show-current 2> /dev/null)%f %F{#daaee8}%#%f%b '
+export PROMPT='%B%F{blue}%99~%f %F{#aee8cf}$(git branch --show-current 2> /dev/null)%f %F{#daaee8}%#%f%b ';
+export EDITOR=$(which nvim);
 
 # Source scripts
 
