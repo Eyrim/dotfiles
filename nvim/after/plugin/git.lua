@@ -34,3 +34,5 @@ vim.api.nvim_set_hl(0, 'GitSignsCurrentLineBlame', { fg = "#a6a4a4", bold = fals
 
 require('lazygit')
 
+vim.keymap.set("n", "<leader>lg", "<CMD>:LazyGit<Cr>")
+
