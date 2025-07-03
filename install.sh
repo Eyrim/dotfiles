@@ -1,13 +1,11 @@
 #!/bin/zsh
 
-config="${HOME}/.config";
-
 function setup-symlinks() {
     # Symlink zshrc from config dir to ~
-    ln -s "${config}/.zshrc" "${HOME}/.zshrc";
+    ln -s "${XDG_CONFIG_DIR}/.zshrc" "${XDG_CONFIG_DIR}/.zshrc";
 
     # Symlink scripts to proper place
-    ln -s "${config}/scripts/" "${HOME}/scripts";
+    ln -s "${XDG_CONFIG_DIR}/scripts/" "${XDG_CONFIG_DIR}/scripts";
 }
 
 # Setup the assets used by the system, this doesn't include things like css files for wofi
@@ -15,7 +13,7 @@ function setup-symlinks() {
 function setup-assets() {
     asset_dir="assets";
 
-    ln -s "${config}/${asset_dir}" "${HOME}/Documents/${asset_dir}";
+    ln -s "${XDG_CONFIG_DIR}/${asset_dir}" "${HOME}/Documents/${asset_dir}";
 }
 
 setup-assets;
