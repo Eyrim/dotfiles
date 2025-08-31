@@ -1,3 +1,9 @@
 discord/
 spotify/
 dconf/
+google-chrome/
+
+emacs/straight
+emacs/auto-save-list
+emacs/eln-cache
+
