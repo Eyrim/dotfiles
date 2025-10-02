@@ -9,6 +9,8 @@ vim.cmd("set cursorline")
 
 vim.cmd("set mouse=")
 
+vim.cmd("set autochdir")
+
 vim.g.mapleader = " "
 
 vim.diagnostic.config({ virtual_text = true })
