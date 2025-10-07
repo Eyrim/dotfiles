@@ -14,11 +14,19 @@ function UpdateNorgMetaAndSave()
 end
 
 -- When writing a norg file, update the metadata
--- Works on both :w and :wq
 -- Does require core.esupports.metagen
 -- https://github.com/nvim-neorg/neorg/wiki/Metagen
 vim.api.nvim_create_autocmd('BufWritePost', {
     group = norg,
     pattern = { '*.norg' },
-    command = ':=UpdateNorgMetaAndSave'
+    command = ':=UpdateNorgMetaAndSave' -- TODO just use the callback key rather than a separate func
 })
+
+
+-- Set the hl for floating windows to be actually visible, 
+vim.api.nvim_create_autocmd('ColorScheme', {
+  callback = function()
+    vim.api.nvim_set_hl(0, 'NormalFloat', { bg = '#45484a' })
+  end,
+})
+
