@@ -3,7 +3,7 @@ spotify/
 dconf/
 google-chrome/
 
-emacs/straight
-emacs/auto-save-list
-emacs/eln-cache
+emacs/*
+!emacs/init.el
+!emacs/early-init.el
 
