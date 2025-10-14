@@ -20,14 +20,17 @@ nvim_cmp.setup({
         ["<CR>"] = nvim_cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
     }),
     sources = nvim_cmp.config.sources(
-    {
-        { name = "nvim_lsp" },
-        { name = "luasnip" }, -- For luasnip users.
-    }, 
-    {
-        { name = "buffer" },
-    },
-    {
-        { name = "nvim_lsp_signature_help" },
-    }),
+        {
+            { name = "nvim_lsp" },
+            { name = "luasnip" }, -- For luasnip users.
+        },
+        {
+            { name = "buffer" },
+        },
+        {
+            { name = "lazydev" },
+        },
+        {
+            { name = "nvim_lsp_signature_help" },
+        }),
 })
