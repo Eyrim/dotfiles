@@ -14,12 +14,12 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term ghostty
+set $term wezterm
 # Your preferred application launcher
 set $menu wofi --show=run
 
 exec swaymsg "workspace 2; exec firefox;"
-exec swaymsg "workspace 1; exec ghostty;"
+exec swaymsg "workspace 1; exec wezterm;"
 
 font pango:Mononoki Nerd Font Mono Medium 11
 default_border none
