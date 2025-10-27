@@ -2,6 +2,7 @@ discord/
 spotify/
 dconf/
 google-chrome/
+unity3d/
 
 emacs/*
 !emacs/init.el
