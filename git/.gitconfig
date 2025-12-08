@@ -1,4 +1,14 @@
 [submodule]
-  recurse = true
+    recurse = true
+
 [branch "main"]
-	pushRemote = origin
+    pushRemote = origin
+
+[init]
+    defaultBranch = main
+
+[user]
+    email = marfxedbot@gmail.com
+    name = Eyrim
+
+
