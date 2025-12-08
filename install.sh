@@ -32,6 +32,9 @@ function setup-symlinks() {
 
     # Symlink ripgrep config
     ln -s "${config_dir}/.ripgreprc" "${HOME}/.ripgreprc";
+
+    # Symlink mvn config
+    ln -s "${config_dir}/.m2/settings.xml" "${HOME}/.m2/settings.xml";
 }
 
 # Setup the assets used by the system, this doesn't include things like css files for wofi
