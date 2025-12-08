@@ -8,7 +8,14 @@ vim.keymap.set('n', '<leader>ht', builtin.help_tags, { desc = 'Telescope help ta
 telescope
     .setup({
         "nvim-telescope/telescope-file-browser.nvim",
-        dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+        dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
+        -- file_ignore_patterns = { "^./.git/", "^node_modules/" },
+        pickers = {
+            find_files = {
+                hidden = true
+            },
+        },
     })
+
 telescope
     .load_extension("file_browser")
