@@ -33,5 +33,5 @@ return {
                 { path = 'wezterm-types', mods = { 'wezterm' } },
             }
         },
-    }
+    },
 }
